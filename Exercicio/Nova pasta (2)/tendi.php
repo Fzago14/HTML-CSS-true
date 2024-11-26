@@ -1,0 +1,1 @@
+ta, serviu de aprendizado.
