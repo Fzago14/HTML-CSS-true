@@ -7,7 +7,7 @@ html{font-family: 'Courier New', Courier, monospace;
      font-size: 1.5em;
      font-weight: 1.5em;}
 
-menu{display: none;}
+     menu{display: none;}
 
 article::after{
     content: Esse artigo foi impresso no através do seu anus;
