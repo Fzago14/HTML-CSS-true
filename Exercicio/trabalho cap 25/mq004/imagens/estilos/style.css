@@ -25,11 +25,11 @@ h1{color: white;
    font-size: xx-large;
    text-align: center;}
 
-img{display: block;
-    margin: auto;}
+   img{display: block;
+     margin: auto;}
 
-img#pc {display: none;}
-img#tv {display: none;}
-img#tablet {display: none;}
-img#impressora {display: none;}
-img#celular {display: block;}
+     img#pc {display: none;}
+     img#tv {display: none;}
+     img#tablet {display: none;}
+     img#impressora {display: none;}
+     img#celular {display: block;}
