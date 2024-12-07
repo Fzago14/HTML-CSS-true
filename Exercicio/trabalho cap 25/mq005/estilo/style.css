@@ -6,7 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{ background-color: darkgray;}
+header{ background-color: rgb(202, 201, 201);}
+
+body{background-color: rgb(134, 134, 134);}
 
 header h1{text-align: center;
    color: aliceblue;
@@ -18,4 +20,19 @@ menu > ul > li > a{display: block;
                    padding: 10px;
                    text-decoration: none;
                    color: white;
-                   background-color: grey;}
+                   background-color: grey;
+                   text-align: center;
+                   border-top: 2px solid darkgray;}
+
+menu > ul > li > a:hover{ background-color: darkgray;}
+
+main{background-color: white;
+     border-radius: 5px;
+     width: 90vw;
+     margin: auto;
+     padding: 5px;}
+
+article h2{padding-bottom: 20px;}
+
+article p{ text-align: justify;
+          margin-bottom: 20px;}
