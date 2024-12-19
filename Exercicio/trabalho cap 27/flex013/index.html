@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        div.conteiner{
+            background-color: darkorange;
+            display: flex;
+            flex-flow: row nowrap;}
+        div.ata{
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+            flex: 2 1 300px ;}
+            div.tendi{
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+            flex: 0 1 300px;}
+            div.agora{
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+            flex: 1 2 300px;}
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="ata">A</div>
+        <div class="tendi">B</div>
+        <div class="agora">C</div>
+    </div>
+</body>
+</html>
