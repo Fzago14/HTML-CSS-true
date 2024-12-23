@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+*{margin: 0;
+  padding: 0;}
+
+#conteiner{display: grid;
+           grid-template-columns: repeat(3, minmax( 200px, 1fr) 1fr) 70px;
+           row-gap: 40px;
+           column-gap: 30px;
+           /*gap: (shorthand)*/ }
+
+.item{
+    background-color: aqua;
+    padding: 10px;
+}
